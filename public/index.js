@@ -50,14 +50,14 @@ function populateChart() {
     return `${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}`;
     
   });
-  console.log(labels);
+  
   // create incremental values for chart
   let data = reversed.map(t => {
     
     sum += parseInt(t.value);
     return sum;
   });
-  console.log(data);
+  
   // remove old chart if it exists
   if (myChart) {
     myChart.destroy();

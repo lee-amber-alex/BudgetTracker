@@ -6,7 +6,6 @@ fetch("/api/transaction")
     return response.json();
   })
   .then(data => {
-    // save db data on global variable
     transactions = data;
 
     populateTotal();
@@ -15,7 +14,6 @@ fetch("/api/transaction")
   });
 
 function populateTotal() {
-  // reduce transaction amounts to a single total value
   let total = transactions.reduce((total, t) => {
     return total + parseInt(t.value);
   }, 0);
@@ -93,27 +91,24 @@ function sendTransaction(isAdding) {
     errorEl.textContent = "";
   }
 
-  // create record
+  
   let transaction = {
     name: nameEl.value,
     value: amountEl.value,
     date: new Date().toISOString()
   };
 
-  // if subtracting funds, convert amount to negative number
+  
   if (!isAdding) {
     transaction.value *= -1;
   }
 
-  // add to beginning of current array of data
   transactions.unshift(transaction);
 
-  // re-run logic to populate ui with new record
   populateChart();
   populateTable();
   populateTotal();
   
-  // also send to server
   fetch("/api/transaction", {
     method: "POST",
     body: JSON.stringify(transaction),
@@ -138,7 +133,6 @@ function sendTransaction(isAdding) {
   .catch(err => {
     saveRecord(transaction);
 
-    // clear form
     nameEl.value = "";
     amountEl.value = "";
   });

@@ -16,7 +16,7 @@ Budget Tracker with added functionality to allow for offline access.
 * [License](#license)
  
 ## Installation
-```https://budgetracker1234.herokuapp.com/
+https://budgetracker1234.herokuapp.com/
 
 
 ## Usage

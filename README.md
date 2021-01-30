@@ -16,12 +16,12 @@ Budget Tracker with added functionality to allow for offline access.
 * [License](#license)
  
 ## Installation
-```
-Access the Budget Tracker repo [here.](https://github.com/lee-amber-alex/BudgetTracker) 
-``` 
+```https://budgetracker1234.herokuapp.com/
+
 
 ## Usage
-https://budgetracker1234.herokuapp.com/  
+Access the Budget Tracker repo [here.](https://github.com/lee-amber-alex/BudgetTracker) 
+  
 
 ##### Home Page 
 ![Home Page.](public/img/home.png)

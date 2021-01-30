@@ -17,7 +17,7 @@ Budget Tracker with added functionality to allow for offline access.
  
 ## Installation
 ```
-https://budgetracker1234.herokuapp.com/
+Access the Budget Tracker repo [here.](https://github.com/lee-amber-alex/BudgetTracker) 
 ``` 
 
 ## Usage

@@ -15,7 +15,10 @@ Budget Tracker with added functionality to allow for offline access. This app so
 * [License](#license)
  
 ## Installation  
+```
 npm i
+
+```
 
 
 ## Usage  

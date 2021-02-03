@@ -6,7 +6,7 @@
      
 ## Description
 
-Budget Tracker with added functionality to allow for offline access. 
+Budget Tracker with added functionality to allow for offline access. This app solves the issue of losing functionality due to the absence of internet access.  
 
 ## Table of Contents
  
@@ -15,13 +15,15 @@ Budget Tracker with added functionality to allow for offline access.
 * [Credits](#credits)
 * [License](#license)
  
-## Installation
-https://budgetracker1234.herokuapp.com/
+## Installation  
+npm i
 
 
-## Usage
-Access the Budget Tracker repo [here.](https://github.com/lee-amber-alex/BudgetTracker) 
-  
+## Usage  
+
+Visit Budget.Tracker [here.](https://budgetracker1234.herokuapp.com/)  
+
+Access the project repository [here.](https://github.com/lee-amber-alex/BudgetTracker)  
 
 ##### Home Page 
 ![Home Page.](public/img/home.png)

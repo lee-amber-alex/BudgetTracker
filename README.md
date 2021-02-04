@@ -6,7 +6,7 @@
      
 ## Description
 
-Budget Tracker with added functionality to allow for offline access. This app solves the issue of losing functionality due to the absence of internet access.  
+Budget Tracker with added functionality to allow for offline access. This app solves the issue of losing functionality due to the absence of internet access.  Technologies used: Express, Mongoose, MongoDB, Mongo Atlas, IndexDB.
 
 ## Table of Contents
  

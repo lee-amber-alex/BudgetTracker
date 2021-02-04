@@ -39,10 +39,8 @@ Access the project repository [here.](https://github.com/lee-amber-alex/BudgetTr
 #####  Back online after refreshing the page.  
 ![Offline](public/img/Refresh.png)
 
-
-
-## License
-This project is covered under the MIT License.
+## Credits
+UW Coding Bootcamp provided frontend code. 
 
 ## License
 This project is covered under the MIT License.
